@@ -6,6 +6,7 @@ import random
 
 # possible choices
 selections = ("Rock", "Paper", "Scissor")
+print("\nPossible Choices\n\n\tRock\n\tPaper\n\tScissor\n")
 user_choice = input("Enter Your Choice: ")
 computer_choice = random.choice(selections)
 
